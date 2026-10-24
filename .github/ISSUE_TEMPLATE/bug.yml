@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in FlexHub doesn't work as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what FlexHub did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Save a snapshot with ⌃⌥N
+        2. ...
+  - type: input
+    id: version
+    attributes:
+      label: FlexHub version
+      description: Settings shows it under the app name, e.g. 0.2.0 (4).
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: e.g. 26.1
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Displays and apps involved
+      description: Number of screens, notch or not, and the apps in the snapshot if it matters.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or recordings
+      description: Drag files here. Never include your license key.

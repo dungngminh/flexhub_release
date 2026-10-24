@@ -1,0 +1,19 @@
+name: Feature request
+description: An idea for FlexHub.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like FlexHub to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it matter to you?
+      description: The workflow it would help with.
+  - type: input
+    id: version
+    attributes:
+      label: FlexHub version
